@@ -57,6 +57,11 @@ class _SingleItemScreenState extends State<SingleItemScreen> {
                           letterSpacing: 3,
                         ),
                       ),
+                      SizedBox(height: 10),
+                      _locationAndAddress(
+                        locationIcon: Icons.location_on,
+                        addressText: "Jl. Contoh No. 123, Kota Contoh",
+                      ),
                       SizedBox(height: 20),
                       Text(
                         widget.img,
@@ -76,9 +81,10 @@ class _SingleItemScreenState extends State<SingleItemScreen> {
                       ),
                       _contactBy(
                         color: const Color.fromRGBO(76, 175, 80, 1),
-                        fct: () {openWhatsAppChat();
+                        fct: () {
+                          openWhatsAppChat();
                         },
-                        icon: FontAwesomeIcons.whatsapp, // Use FontAwesomeIcons
+                        icon: FontAwesomeIcons.whatsapp,
                       ),
                       SizedBox(height: 25),
                       Container(
@@ -130,11 +136,12 @@ class _SingleItemScreenState extends State<SingleItemScreen> {
     );
   }
 
-void openWhatsAppChat ()async{
-  String phoneNumber='+62 857-3069-9511';
-  var url = 'https://wa.me/+62 857-3069-9511?text=HelloWorld';
-  await launch(url);
-}
+  void openWhatsAppChat () async {
+    String phoneNumber = '+62 857-3069-9511';
+    var url = 'https://wa.me/+62 857-3069-9511?text=HelloWorld';
+    await launch(url);
+  }
+
   Widget _contactBy({Color? color, required Function() fct, IconData? icon}) {
     return Row(
       children: [
@@ -144,14 +151,6 @@ void openWhatsAppChat ()async{
           size: 30,
         ),
         SizedBox(width: 10),
-        // Text(
-        //   "Contact",
-        //   style: TextStyle(
-        //     color: Colors.black.withOpacity(0.8),
-        //     fontSize: 20,
-        //   ),
-        // ),
-        SizedBox(width: 20),
         InkWell(
           onTap: fct,
           child: Text(
@@ -159,6 +158,42 @@ void openWhatsAppChat ()async{
             style: TextStyle(
               color: color,
               fontSize: 20,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _locationAndAddress({required IconData locationIcon, required String addressText}) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          children: [
+            Icon(
+              locationIcon,
+              color: Colors.blue,
+              size: 30,
+            ),
+            SizedBox(width: 10),
+            Text(
+              "Location:",
+              style: TextStyle(
+                color: Colors.blue,
+                fontSize: 20,
+              ),
+            ),
+          ],
+        ),
+        SizedBox(height: 5),
+        Padding(
+          padding: const EdgeInsets.only(left: 40),
+          child: Text(
+            addressText,
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 18,
             ),
           ),
         ),

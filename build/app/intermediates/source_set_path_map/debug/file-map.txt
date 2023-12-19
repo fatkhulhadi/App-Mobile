@@ -1,0 +1,15 @@
+com.example.uts_v3422023_fatkhul.app-jetified-window-1.0.0-beta04-0 C:\Users\Lenovo\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\res
+com.example.uts_v3422023_fatkhul.app-jetified-annotation-experimental-1.3.0-1 C:\Users\Lenovo\.gradle\caches\transforms-3\937d6edc8055f6701a18eeac1a67afe6\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.uts_v3422023_fatkhul.app-lifecycle-runtime-2.3.1-2 C:\Users\Lenovo\.gradle\caches\transforms-3\9a249567dcb8025899915ed9a2426636\transformed\lifecycle-runtime-2.3.1\res
+com.example.uts_v3422023_fatkhul.app-jetified-window-java-1.0.0-beta04-3 C:\Users\Lenovo\.gradle\caches\transforms-3\ae81e06d24c799147c26814497a2a305\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.uts_v3422023_fatkhul.app-core-1.10.1-4 C:\Users\Lenovo\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\res
+com.example.uts_v3422023_fatkhul.app-browser-1.5.0-5 C:\Users\Lenovo\.gradle\caches\transforms-3\d12883dde0390e08dd2a1192741cec1b\transformed\browser-1.5.0\res
+com.example.uts_v3422023_fatkhul.app-debug-6 D:\flutter project\UAS\App-Mobile\android\app\src\debug\res
+com.example.uts_v3422023_fatkhul.app-main-7 D:\flutter project\UAS\App-Mobile\android\app\src\main\res
+com.example.uts_v3422023_fatkhul.app-pngs-8 D:\flutter project\UAS\App-Mobile\build\app\generated\res\pngs\debug
+com.example.uts_v3422023_fatkhul.app-resValues-9 D:\flutter project\UAS\App-Mobile\build\app\generated\res\resValues\debug
+com.example.uts_v3422023_fatkhul.app-rs-10 D:\flutter project\UAS\App-Mobile\build\app\generated\res\rs\debug
+com.example.uts_v3422023_fatkhul.app-mergeDebugResources-11 D:\flutter project\UAS\App-Mobile\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.uts_v3422023_fatkhul.app-mergeDebugResources-12 D:\flutter project\UAS\App-Mobile\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.uts_v3422023_fatkhul.app-merged_res-13 D:\flutter project\UAS\App-Mobile\build\app\intermediates\merged_res\debug
+com.example.uts_v3422023_fatkhul.app-packaged_res-14 D:\flutter project\UAS\App-Mobile\build\url_launcher_android\intermediates\packaged_res\debug
