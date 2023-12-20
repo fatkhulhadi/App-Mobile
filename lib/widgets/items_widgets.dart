@@ -13,6 +13,7 @@ class ItemsWidget extends StatelessWidget {
     'Rp1.200.000,00',
     'Rp900.000,00',
     'Rp820.000,00',
+    
   ];
 
   @override
