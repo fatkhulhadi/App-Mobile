@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart'; 
-import 'package:uts_v3422023_fatkhul/favorit.dart';
+import 'package:CahKos/favorit.dart';
 
 class SingleItemScreen extends StatefulWidget {
   final String img;
