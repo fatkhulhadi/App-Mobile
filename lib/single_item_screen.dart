@@ -138,7 +138,7 @@ class _SingleItemScreenState extends State<SingleItemScreen> {
 
   void openWhatsAppChat () async {
     String phoneNumber = '+62 857-3069-9511';
-    var url = 'https://wa.me/+62 857-3069-9511?text=HelloWorld';
+    var url = 'https://wa.me/+62 857-3069-9511?text=apakah masih ada kamar kosong';
     await launch(url);
   }
 
